@@ -989,14 +989,22 @@ margin-top: 30px;
     color: var(--color-web-blue);
     text-decoration: underline;
    }
- .modal-check-imput:checked + .modal-check-imput-new-onn{
-z-index: -10;}
-.modal-check-imput-new-off {position: absolute;
+ .modal-check-imput:checked + .modal-check-imput-new-off{
+  z-index: -2;
+visibility: hidden;}
+ .modal-check-imput:checked + .modal-check-imput-new-onn {
+  z-index: 2;
+ }
+ .modal-check-imput-new-off {position: absolute;
 
 }
 .modal-check-imput-new-onn{
+  background-color: #ffffff;
   position: absolute;
 }
+
+
+
   /* .visually-hidden{
     position: absolute;
     width: 1px;
