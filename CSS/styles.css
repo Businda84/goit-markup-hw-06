@@ -861,7 +861,9 @@ text-align: left;
     letter-spacing: 0.03em;
     text-align: center;
 }
-
+input {
+  cursor: pointer;
+}
 textarea{
   height: 120px;
   width: 448px;
@@ -925,12 +927,13 @@ margin-top: 30px;
 
  .modal-form-checkbox {
  display: flex;
+ align-items: center;
  }
  .modal-check-imput{
   
-  padding: 0px;
+  /* padding: 0px;
   position: absolute;
-  appearance: none;
+  appearance: none; */
  }
  .modal-check-imput-new{
   padding-right: 7px;
@@ -981,4 +984,8 @@ margin-top: 30px;
       transition: fill var(--transition-timing-cub);
   
     }
-   
+   .contract {
+    color: var(--color-web-blue);
+    text-decoration: underline;
+   }
+ 
