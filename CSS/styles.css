@@ -928,13 +928,14 @@ margin-top: 30px;
  .modal-form-checkbox {
  display: flex;
  align-items: center;
+ position: relative;
  }
- .modal-check-imput{
+ /* .modal-check-imput{
   
   /* padding: 0px;
   position: absolute;
   appearance: none; */
- }
+
  .modal-check-imput-new{
   padding-right: 7px;
   height: 15px;
@@ -988,4 +989,26 @@ margin-top: 30px;
     color: var(--color-web-blue);
     text-decoration: underline;
    }
- 
+ .modal-check-imput:checked + .modal-check-imput-new-onn{
+z-index: -10;}
+.modal-check-imput-new-off {position: absolute;
+
+}
+.modal-check-imput-new-onn{
+  position: absolute;
+}
+  /* .visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+  }
+ */
+
+
+ /* } 
+.modal-check-imput {appearance: none;} */
