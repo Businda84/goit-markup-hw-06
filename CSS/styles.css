@@ -955,7 +955,10 @@ margin-top: 30px;
       margin-bottom: 20px;
       border: 1px solid #21212133;
  }
-  
+  textarea:focus {
+    border-color: var(--color-web-blue);
+    outline: none;
+  }
  .imput-modal-form:focus + icom-modal-form {
       fill: var(--color-web-blue);
  }
