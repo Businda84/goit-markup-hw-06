@@ -995,12 +995,12 @@ visibility: hidden;}
  .modal-check-imput:checked + .modal-check-imput-new-onn {
   z-index: 2;
  }
- .modal-check-imput-new-off {position: absolute;
+ /* .modal-check-imput-new-off {position: absolute; */
 
-}
+
 .modal-check-imput-new-onn{
   background-color: #ffffff;
-  position: absolute;
+  /* position: absolute; */
 }
 
 
