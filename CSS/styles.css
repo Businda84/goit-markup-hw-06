@@ -897,11 +897,12 @@ textarea {
     border: rgba(0, 0, 0, 0.1);}
 
 .icon-send {
+padding-left: 10px;
 padding-right: 10px;
 display: block;
- padding: 0px;
- fill: #ffffff;
- border: none;
+padding: 0px;
+fill: #ffffff;
+border: none;
         
 }
 button {
@@ -910,7 +911,7 @@ button {
 .send {
   margin-left: auto;
   margin-right: auto;
-margin-top: 30px;
+  margin-top: 30px;
   width: 200px;
   height: 50px;
   background-color: var(--color-web-blue);
@@ -921,10 +922,12 @@ margin-top: 30px;
 }   
  .icon-input{
   padding: 0px;
-  margin: 0px;
+  margin-bottom: 10px;
   position: relative;
  }
-
+.icone-send{
+ padding-left: 10px;
+}
  .modal-form-checkbox {
  display: flex;
  align-items: center;
@@ -957,13 +960,18 @@ margin-top: 30px;
     border-color: var(--color-web-blue);
     outline: none;
   }
- .modal-check-imput:focus + .chek-box.modal-check-imput-new-onn{
+ .modal-check-imput:checked + .chek-box {
       fill: var(--color-web-blue);
       border: none;
  }
  .imput-modal-form:focus {
+  fill: var(--color-web-blue);
       outline: none;
       border-color: var(--color-web-blue);
+      
+ }
+ .imput-modal-form:focus+.icon-modal-form{
+  fill: var(--color-web-blue);
  }
  .imput-modal-form{
       border: box;
@@ -973,6 +981,7 @@ margin-top: 30px;
       height: 40px;
       border-radius: 4px;
       border: 1px solid #21212133;
+    
       padding-left: 42px;
       transition: border-color var(--transition-timing-cub);
     }
@@ -993,18 +1002,21 @@ margin-top: 30px;
 .chek-box{
   width: 16px;
   height: 15px;
+  margin-right: 7px;
   border: 2px solid var(--color-text-main);
   fill: transparent;
   display: flex;
   align-items: center;
  justify-content: center;
  cursor: pointer;
+ border-radius: 3px;
+ transition: border var(--transition-timing-cub), fill var(--transition-timing-cub);
 }
  
 
 
 
-  /* .visually-hidden{
+  .visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -1014,7 +1026,7 @@ margin-top: 30px;
     border: 0;
     clip: rect(0 0 0 0);
   }
- */
+
 
 
  /* } 
