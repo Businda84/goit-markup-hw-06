@@ -469,9 +469,9 @@
             </li>
           </ul>
         </div>
-        <form class="footer-form">
-          <p2 class="mailing-list">Підпишіться на розсилку</p2>
-          <div class="form-for-imput">
+        <div class="footer-form">
+          <p class="mailing-list">Підпишіться на розсилку</p>
+          <form class="form-for-imput">
             <input
               class="wind-for-email"
               type="email "
@@ -484,8 +484,8 @@
                 <use href="./images/SVG/symbol-defs.svg#icon-send"></use>
               </svg>
             </button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -495,7 +495,7 @@
             <use href="./images/SVG/symbol-defs.svg#icone-close"></use>
           </svg>
         </button>
-        <b class="modal-title">Залиште свої дані, ми вам передзвонимо</b>
+        <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
         <form class="contact-form">
           <label class="label-modal" for="name">Ім'я</label>
           <span class="icon-input">
@@ -507,7 +507,7 @@
               required
               autofocus
             />
-            <svg class="icon-modal-form" width="18" heigt="18">
+            <svg class="icon-modal-form" width="18" height="18">
               <use
                 href="./images/SVG/symbol-defs.svg#icon-person-black-18dp"
               ></use>
@@ -524,7 +524,7 @@
               pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
               title="xxx-xxx-xx-xx"
             />
-            <svg class="icon-modal-form" width="18" heigt="18">
+            <svg class="icon-modal-form" width="18" height="18">
               <use
                 href="./images/SVG/symbol-defs.svg#icon-phone-black-18dp"
               ></use>
@@ -539,14 +539,14 @@
               id="mail"
               required
             />
-            <svg class="icon-modal-form" width="18" heigt="18">
+            <svg class="icon-modal-form" width="18" height="18">
               <use
                 href="./images/SVG/symbol-defs.svg#icon-email-black-18dp"
                 class="icon-modal-form-use"
               ></use>
             </svg>
           </span>
-          <span class="icon-input">
+          <span class="icon-input imput-textarea">
             <label class="label-modal" for="User-comments">Коментар</label>
             <textarea
               name="User_massage"
@@ -571,7 +571,7 @@
               </svg>
             </span>
 
-            Погоджуюся з розсилкою та приймаю
+            <span class="contract-term">Погоджуюся з розсилкою та приймаю</span>
             <a class="contract" href=""> &nbsp;Умови договору</a>
           </label>
 
